@@ -1,31 +1,373 @@
+/* GENERAL - Ajustes Generales - GENERAL */
+
 .page {
   min-width: 1100px;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
   max-width: 1600px;
-  /* here we've set a maximum page width */
   margin: 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
+
+/* HEADER - INICIO Sección Header - HEADER */
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* parameters for the header section */
+  display: flex;
+  background-color: #f2f2f2;
+  position: relative;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
+.logo {
+  z-index: 2;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  width: 154px;
+  height: 31px;
+}
+
+.header__title {
+  width: 730px;
+  z-index: 2;
+  margin: auto 0 auto 64px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 2;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.header__main-illustration {
+  width: 756px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__square {
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
+  z-index: 0;
 }
 
-/* including elements with key-value modifiers */
+/* HEADER - FIN Sección Header - HEADER */
+
+/* MAIN CONTENT - INICIO Sección Description - MAIN CONTENT */
+
+.description {
+  margin-top: 100px;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.two-columns__brief {
+  width: 175px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin-top: 0;
+  padding-bottom: 30px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: bold;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+/* MAIN CONTENT - FIN Sección Description - MAIN CONTENT */
+
+/* MAIN CONTENT - INICIO Sección Digits - MAIN CONTENT */
+
+.digits {
+  margin-top: 100px;
+}
+
+.section-title {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.table__cell {
+  width: 250px;
+  margin: 60px auto 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.table__heading {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin: 0;
+}
+
+.table__text {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 20px;
+}
+
+/* MAIN CONTENT - FIN Sección Digits - MAIN CONTENT */
+
+/* MAIN CONTENT - INICIO Sección Feynman - MAIN CONTENT */
+
+.feynman {
+  margin-top: 100px;
+  height: 790px;
+  background: url("../images/feynman.png"), #f2f2f2;
+  background-size: 867px 637px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  position: relative;
+}
+
+.feynman__title {
+  width: 775px;
+  padding-top: 100px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 120px;
+  line-height: 1.15;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 70px;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+
+/* MAIN CONTENT - Fin Sección Feynman - MAIN CONTENT */
+
+/* MAIN CONTENT - INICIO Sección Kaufman - MAIN CONTENT */
+
+.kaufman {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title_theme_dark {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 90px;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+  text-align: center;
+  color: #f2f2f2;
+  z-index: 1;
+  position: relative;
+}
+
+.section-subtitle_theme_dark {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  text-align: center;
+  color: #f2f2f2;
+  z-index: 1;
+  position: relative;
+}
+
+.table_theme_dark {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-bottom: 90px;
+  color: #f2f2f2;
+  z-index: 1;
+}
+
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  margin: 80px auto 0;
+  padding: 0;
+  list-style-type: none;
 }
+
+.table__heading_theme_dark {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin: 0;
+}
+
+.table__text_theme_dark {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.kaufman__triangle {
+  height: 660px;
+  width: 636px;
+  position: absolute;
+  top: 0px;
+  right: -124px;
+
+  z-index: 0;
+}
+
+/* MAIN CONTENT - Fin Sección Kaufman - MAIN CONTENT */
+
+/* FOOTER - INICIO Footer - Footer */
+
+.footer {
+  min-height: 350px;
+  background: #1f1f1f;
+  color: #f2f2f2;
+  padding: 60px 0 40px;
+}
+
+.footer__columns {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  padding: 18px 0;
+  margin: 0;
+}
+
+.footer__column_heading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.footer__list {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.footer__column-link {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  padding: 0;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.footer__social-icons {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+
+/* FOOTER - FIN Footer - Footer */ ;
