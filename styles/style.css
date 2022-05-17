@@ -1,4 +1,7 @@
 /* GENERAL - Ajustes Generales - GENERAL */
+html {
+  box-sizing: border-box;
+}
 
 .page {
   min-width: 1100px;
@@ -61,6 +64,10 @@
   z-index: 1;
 }
 
+.header__link {
+  text-decoration: none;
+}
+
 .header__square {
   height: 568px;
   width: 568px;
@@ -100,7 +107,7 @@
 }
 
 .two-columns__paragraph {
-  margin-top: 0;
+  margin: 0;
   padding-bottom: 30px;
   font-size: 24px;
   line-height: 34px;
@@ -150,11 +157,12 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: auto;
+  padding: 0;
 }
 
 .table__cell {
   width: 250px;
-  margin: 60px auto 0;
+  margin-top: 60px;
   padding: 0;
   list-style-type: none;
 }
@@ -214,6 +222,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  text-decoration: none;
 }
 
 /* MAIN CONTENT - Fin Sección Feynman - MAIN CONTENT */
@@ -261,14 +270,14 @@
   position: relative;
   flex-wrap: wrap;
   margin: auto;
-  padding-bottom: 90px;
+  padding: 0 0 90px;
   color: #f2f2f2;
   z-index: 1;
 }
 
 .table__cell_theme_dark {
   width: 200px;
-  margin: 80px auto 0;
+  margin-top: 80px;
   padding: 0;
   list-style-type: none;
 }
@@ -370,4 +379,4 @@
   padding-right: 10px;
 }
 
-/* FOOTER - FIN Footer - Footer */ ;
+/* FOOTER - FIN Footer - Footer */
