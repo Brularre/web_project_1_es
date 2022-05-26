@@ -1,0 +1,8 @@
+.cards__item {
+  width: 240px;
+  padding-right: 100px;
+}
+
+.cards__item:nth-of-type(3n) {
+  padding-right: 0;
+}

@@ -1,0 +1,8 @@
+.section__title {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+  text-align: center;
+}

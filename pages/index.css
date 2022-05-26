@@ -1,0 +1,114 @@
+/* NORMALIZAR AJUSTES */
+
+@import url(../vendor/normalize.css);
+
+/* AJUSTES GENERALES */
+
+@import url(../blocks/root/root.css);
+
+/* ANIMACIONES */
+
+@import url(../animation/__rotation/animation__rotation.css);
+@import url(../animation/__rotation/_apply/animation__rotation_apply.css);
+
+/* LOGO */
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+
+/* HEADER */
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__square/header__square.css);
+
+/* SECCIONES */
+
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/_overflow-top/section_overflow-top.css);
+@import url(../blocks/section/_padding/section_padding_bottom.css);
+@import url(../blocks/section/_theme/section_theme_gray.css);
+@import url(../blocks/section/__subtitle/section__subtitle.css);
+@import url(../blocks/section/__subtitle/_theme/section__subtitle_theme_dark.css);
+@import url(../blocks/section/__subtitle/_place/section__subtitle_place_kaufman.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__title/_theme/section__title_theme_dark.css);
+@import url(../blocks/section/__title/_place/section__title_place_digits.css);
+@import url(../blocks/section/__title/_place/section__title_place_kaufman.css);
+
+/* CARDS */
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+
+/* TABLAS */
+
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
+@import url(../blocks/table/_theme/table__cell_theme_dark.css);
+@import url(../blocks/table/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/_theme/table__text_theme_dark.css);
+
+/* VIDEO */
+
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+
+/* TWO COLUMNS */
+
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+
+/* FEYNMAN */
+
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+
+/* KAUFMAN */
+
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+
+/* KHAN */
+
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__container/khan__container.css);
+@import url(../blocks/khan/__author/khan__author.css);
+@import url(../blocks/khan/__title/khan__title.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+
+/* RESOURCES */
+
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
+
+/* FOOTER */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__heading/footer__heading.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__social-icons/footer__social-icons.css);

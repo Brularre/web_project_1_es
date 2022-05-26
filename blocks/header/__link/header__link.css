@@ -1,0 +1,10 @@
+.header__link {
+  text-decoration: none;
+  -webkit-transition: opacity 1.2s;
+  -o-transition: opacity 1.2s;
+  transition: opacity 1.2s;
+}
+
+.header__link:hover {
+  opacity: 0.6;
+}
