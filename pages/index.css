@@ -8,8 +8,8 @@
 
 /* ANIMACIONES */
 
-@import url(../animation/__rotation/animation__rotation.css);
-@import url(../animation/__rotation/_apply/animation__rotation_apply.css);
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/rotation/_apply/rotation_apply.css);
 
 /* LOGO */
 
@@ -29,16 +29,12 @@
 /* SECCIONES */
 
 @import url(../blocks/section/section.css);
-@import url(../blocks/section/_overflow-top/section_overflow-top.css);
-@import url(../blocks/section/_padding/section_padding_bottom.css);
-@import url(../blocks/section/_theme/section_theme_gray.css);
-@import url(../blocks/section/__subtitle/section__subtitle.css);
-@import url(../blocks/section/__subtitle/_theme/section__subtitle_theme_dark.css);
-@import url(../blocks/section/__subtitle/_place/section__subtitle_place_kaufman.css);
-@import url(../blocks/section/__title/section__title.css);
-@import url(../blocks/section/__title/_theme/section__title_theme_dark.css);
-@import url(../blocks/section/__title/_place/section__title_place_digits.css);
-@import url(../blocks/section/__title/_place/section__title_place_kaufman.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-title/_place/section__title_place_kaufman.css);
+@import url(../blocks/section-subtitle/section__subtitle.css);
+@import url(../blocks/section-subtitle/_place/section-subtitle_place_kaufman.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 /* CARDS */
 
@@ -55,14 +51,22 @@
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
-@import url(../blocks/table/_theme/table__cell_theme_dark.css);
-@import url(../blocks/table/_theme/table__heading_theme_dark.css);
-@import url(../blocks/table/_theme/table__text_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
 /* VIDEO */
 
 @import url(../blocks/video/__iframes/video__iframes.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
+
+/* OAKLEY */
+
+@import url(../blocks/oakley/oakley.css);
+
+/* DIGITS */
+
+@import url(../blocks/digits/digits.css);
 
 /* TWO COLUMNS */
 
