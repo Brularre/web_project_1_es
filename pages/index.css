@@ -51,9 +51,6 @@
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
-@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
-@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
-@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
 /* VIDEO */
 
@@ -87,6 +84,7 @@
 
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+@import url(../blocks/kaufman/__table-cell/kaufman__table-cell.css);
 
 /* KHAN */
 

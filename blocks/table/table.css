@@ -6,8 +6,10 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  position: relative;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: auto;
-  padding: 0;
+  padding-bottom: 90px;
+  z-index: 1;
 }
